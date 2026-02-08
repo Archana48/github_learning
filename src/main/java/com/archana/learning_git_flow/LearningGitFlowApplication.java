@@ -10,6 +10,7 @@ public class LearningGitFlowApplication {
         SpringApplication.run(LearningGitFlowApplication.class, args);
 
         System.out.println("Hello, welcome to learning Git Flow!");
+        System.out.println("testing");
     }
 
 }
