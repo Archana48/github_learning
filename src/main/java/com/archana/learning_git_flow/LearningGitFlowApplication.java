@@ -8,6 +8,7 @@ public class LearningGitFlowApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(LearningGitFlowApplication.class, args);
+        System.out.println("test");
     }
 
 }
