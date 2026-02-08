@@ -1,5 +1,6 @@
 package com.archana.learning_git_flow;
 
+import com.archana.learning_git_flow.Controller.GitController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,6 +12,7 @@ public class LearningGitFlowApplication {
 
         System.out.println("Hello, welcome to learning Git Flow!");
         System.out.println("testing");
+        GitController.print();
     }
 
 }
